@@ -1,0 +1,28 @@
+{
+  "name": "storybook-addon-info-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build-storybook",
+    "start": "start-storybook",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d storybook-static"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/addon-info": "^5.0.0",
+    "@storybook/addon-knobs": "^5.0.0",
+    "@storybook/react": "^5.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
+  }
+}
